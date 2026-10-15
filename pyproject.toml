@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reachplan"
+version = "1.0.0"
+description = "Verified sewer-cleaning coverage to conservative residual endpoint work plans"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "ReachPlan contributors"}]
+classifiers = ["Programming Language :: Python :: 3", "Operating System :: OS Independent", "Topic :: Scientific/Engineering"]
+
+[project.scripts]
+reachplan = "reachplan.cli:main"
+
+[project.urls]
+Repository = "https://github.com/waxwingfactor/reachplan"
+Issues = "https://github.com/waxwingfactor/reachplan/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+reachplan = ["data/*.csv"]
