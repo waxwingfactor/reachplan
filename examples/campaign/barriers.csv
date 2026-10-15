@@ -1,0 +1,2 @@
+barrier_id,pipe_id,start,end,reason
+B1,P300,30,35,Current unresolved obstruction reported by crew

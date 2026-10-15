@@ -1,0 +1,9 @@
+pass_id,pipe_id,date,origin,start,end,status,notes
+R1,P100,2026-01-04,from,0,30,verified,Accepted by operator
+R2,P100,2026-01-05,to,0,30,verified,Reverse direction accepted
+R3,P100,2026-01-06,from,10,30,verified,Repeat does not add unique coverage
+R4,P200,2026-02-02,from,0,40,verified,Accepted
+R5,P200,2026-02-02,to,20,40,verified,Canonical coverage 60 to 80
+R6,P300,2026-02-03,from,0,80,attempted,Attempt is excluded from coverage
+R7,P400,2026-02-04,from,0,40,verified,Completed before access became unavailable
+R8,P100,2025-12-31,from,0,100,verified,Outside campaign

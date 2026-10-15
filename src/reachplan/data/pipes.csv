@@ -1,0 +1,5 @@
+pipe_id,from_node,to_node,length,unit,from_access,to_access,from_reach,to_reach
+P100,MH1,MH2,100,m,yes,yes,60,60
+P200,MH2,MH3,100,m,yes,no,50,0
+P300,MH3,MH4,80,m,yes,yes,80,80
+P400,MH4,MH5,40,m,no,no,0,0
