@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "verification_kind": "independent AI public-artifact verification",
+  "verified_at_utc": "2026-10-15T19:34:49.650316+00:00",
+  "release_url": "https://github.com/waxwingfactor/reachplan/releases/tag/v1.0.0",
+  "version": "1.0.0",
+  "source_commit": "a48c9ec480866ffd51aabc36977b58fa7592e179",
+  "tag_commit_verified": true,
+  "source_tree_from_build_record": "fdb088905547767167cb7248fd96324cd725724b",
+  "public_downloads_unauthenticated": true,
+  "download_method": "curl browser_download_url; no Authorization header or gh authentication",
+  "ci": {
+    "url": "https://github.com/waxwingfactor/reachplan/actions/runs/38794423881",
+    "head_sha": "a48c9ec480866ffd51aabc36977b58fa7592e179",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "environment": {
+    "os": "Darwin",
+    "os_release": "25.5.0",
+    "machine": "arm64",
+    "python": "3.12.13",
+    "fresh_environments_outside_development_checkout": true
+  },
+  "assets": [
+    {
+      "name": "BUILD-INFO.json",
+      "url": "https://github.com/waxwingfactor/reachplan/releases/download/v1.0.0/BUILD-INFO.json",
+      "sha256": "0195e66b94284af48108a1f3c316cdfffaf4cbf58ddd413ad9eec5479ff99845",
+      "github_api_digest_match": true,
+      "size_bytes": 1137
+    },
+    {
+      "name": "reachplan-1.0.0-py3-none-any.whl",
+      "url": "https://github.com/waxwingfactor/reachplan/releases/download/v1.0.0/reachplan-1.0.0-py3-none-any.whl",
+      "sha256": "19971f03670271c7de39327e3f1d0fca2951ef6fcaf70e493c7aae885edf2221",
+      "github_api_digest_match": true,
+      "size_bytes": 16085
+    },
+    {
+      "name": "reachplan-1.0.0.tar.gz",
+      "url": "https://github.com/waxwingfactor/reachplan/releases/download/v1.0.0/reachplan-1.0.0.tar.gz",
+      "sha256": "30b2f8bd81d923ce4a121335eca7a6adb68ae14487c7646d5a685f34b39564de",
+      "github_api_digest_match": true,
+      "size_bytes": 36850
+    },
+    {
+      "name": "SHA256SUMS",
+      "url": "https://github.com/waxwingfactor/reachplan/releases/download/v1.0.0/SHA256SUMS",
+      "sha256": "c93d494c8fa6b57010e0e5b3f4dfdf3c1141acc71cd6bab59bb6902f4dc6fc82",
+      "github_api_digest_match": true,
+      "size_bytes": 270
+    }
+  ],
+  "all_SHA256SUMS_entries_match": true,
+  "reviewed_source_hashes": [
+    {
+      "file": "core.py",
+      "sha256": "aecc11755843ab1cc211b91fbe2a421deaaba084b47e42a94a4c7af6c810678f",
+      "wheel_matches_reviewed": true,
+      "sdist_matches_reviewed": true
+    },
+    {
+      "file": "bundle.py",
+      "sha256": "aa0fb12f976db9d2783afa765e077670b71565abb8bc08a7237326ae661bb2db",
+      "wheel_matches_reviewed": true,
+      "sdist_matches_reviewed": true
+    },
+    {
+      "file": "cli.py",
+      "sha256": "02363b7d50df636d6dcc072be9f55f3bd6bd4dca1f107b941e0c64d62f94fb0e",
+      "wheel_matches_reviewed": true,
+      "sdist_matches_reviewed": true
+    }
+  ],
+  "wheel_record": {
+    "verified_hashed_members": 13,
+    "status": "passed"
+  },
+  "sdist_includes": {
+    "docs": [
+      "architecture.md",
+      "contracts.md",
+      "research.md",
+      "review.md",
+      "verification.md"
+    ],
+    "tests": [
+      "check_distribution.py",
+      "test_bundle.py",
+      "test_independent.py"
+    ],
+    "examples": [
+      "barriers.csv",
+      "passes.csv",
+      "pipes.csv"
+    ]
+  },
+  "wheel_install": "pip install --no-index published wheel; no runtime dependencies",
+  "sdist_install": "pip isolated build/install from published sdist; build dependencies obtained separately",
+  "runs": [
+    {
+      "distribution": "wheel",
+      "python_version": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+      "installed_package_inside_fresh_venv": true,
+      "source_package_removed_before_test": true,
+      "isolated_python_mode": true,
+      "pythonpath_removed": true,
+      "principal_workflow": {
+        "exit_code": 3,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "totals": {
+        "draft_target_length": "125",
+        "length": "320",
+        "remaining_length": "160",
+        "repeat_length": "20",
+        "review_length": "35",
+        "unique_verified_length": "160",
+        "verified_pass_length": "180"
+      },
+      "initial_bundle_verify": {
+        "exit_code": 0,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "closeout_actual_later_date": "2026-10-15",
+      "closeout": {
+        "exit_code": 0,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "closeout_status": "coverage_complete",
+      "closeout_remaining_length": "0",
+      "old_campaign_excludes_followup": true,
+      "invalid_input": {
+        "exit_code": 2,
+        "stdout_nonempty": false,
+        "stderr_nonempty": true
+      },
+      "invalid_output_absent": true,
+      "relocated_without_original_inputs": {
+        "exit_code": 0,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "relocated_socket_disabled_verification": {
+        "separate_isolated_process": true,
+        "socket_socket_disabled": true,
+        "socket_create_connection_disabled": true,
+        "exit_code": 0
+      },
+      "tamper_detection": {
+        "exit_code": 2,
+        "stdout_nonempty": false,
+        "stderr_nonempty": true
+      },
+      "restored_bundle_verify": {
+        "exit_code": 0,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "published_sdist_tests": {
+        "count": 40,
+        "passed": true
+      }
+    },
+    {
+      "distribution": "source",
+      "python_version": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+      "installed_package_inside_fresh_venv": true,
+      "source_package_removed_before_test": true,
+      "isolated_python_mode": true,
+      "pythonpath_removed": true,
+      "principal_workflow": {
+        "exit_code": 3,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "totals": {
+        "draft_target_length": "125",
+        "length": "320",
+        "remaining_length": "160",
+        "repeat_length": "20",
+        "review_length": "35",
+        "unique_verified_length": "160",
+        "verified_pass_length": "180"
+      },
+      "initial_bundle_verify": {
+        "exit_code": 0,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "closeout_actual_later_date": "2026-10-15",
+      "closeout": {
+        "exit_code": 0,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "closeout_status": "coverage_complete",
+      "closeout_remaining_length": "0",
+      "old_campaign_excludes_followup": true,
+      "invalid_input": {
+        "exit_code": 2,
+        "stdout_nonempty": false,
+        "stderr_nonempty": true
+      },
+      "invalid_output_absent": true,
+      "relocated_without_original_inputs": {
+        "exit_code": 0,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "relocated_socket_disabled_verification": {
+        "separate_isolated_process": true,
+        "socket_socket_disabled": true,
+        "socket_create_connection_disabled": true,
+        "exit_code": 0
+      },
+      "tamper_detection": {
+        "exit_code": 2,
+        "stdout_nonempty": false,
+        "stderr_nonempty": true
+      },
+      "restored_bundle_verify": {
+        "exit_code": 0,
+        "stdout_nonempty": true,
+        "stderr_nonempty": false
+      },
+      "published_sdist_tests": {
+        "count": 40,
+        "passed": true
+      }
+    }
+  ],
+  "status": "passed",
+  "limitations": [
+    "Synthetic supported workflow verification; no actual sewer records or field performance validated.",
+    "Hashes and recomputation establish integrity/consistency, not operator evidence authenticity or field safety.",
+    "Source build wheel need not have byte-identical archive metadata; no reproducible-build claim."
+  ],
+  "source_tree_verified_against_public_git_api": true,
+  "source_commit_url": "https://github.com/waxwingfactor/reachplan/commit/a48c9ec480866ffd51aabc36977b58fa7592e179"
+}
