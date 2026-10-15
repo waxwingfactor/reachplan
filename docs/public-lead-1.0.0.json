@@ -1,0 +1,87 @@
+{
+  "verification_kind": "lead actual-public-artifact verification",
+  "date": "2026-10-15",
+  "source_commit": "a48c9ec480866ffd51aabc36977b58fa7592e179",
+  "release_url": "https://github.com/waxwingfactor/reachplan/releases/tag/v1.0.0",
+  "ci_url": "https://github.com/waxwingfactor/reachplan/actions/runs/38794423881",
+  "environment": {
+    "os": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64",
+    "python": "3.12.13"
+  },
+  "downloads": {
+    "reachplan-1.0.0-py3-none-any.whl": {
+      "url": "https://github.com/waxwingfactor/reachplan/releases/download/v1.0.0/reachplan-1.0.0-py3-none-any.whl",
+      "http_status": 200,
+      "sha256": "19971f03670271c7de39327e3f1d0fca2951ef6fcaf70e493c7aae885edf2221",
+      "bytes": 16085
+    },
+    "reachplan-1.0.0.tar.gz": {
+      "url": "https://github.com/waxwingfactor/reachplan/releases/download/v1.0.0/reachplan-1.0.0.tar.gz",
+      "http_status": 200,
+      "sha256": "30b2f8bd81d923ce4a121335eca7a6adb68ae14487c7646d5a685f34b39564de",
+      "bytes": 36850
+    },
+    "SHA256SUMS": {
+      "url": "https://github.com/waxwingfactor/reachplan/releases/download/v1.0.0/SHA256SUMS",
+      "http_status": 200,
+      "sha256": "c93d494c8fa6b57010e0e5b3f4dfdf3c1141acc71cd6bab59bb6902f4dc6fc82",
+      "bytes": 270
+    },
+    "BUILD-INFO.json": {
+      "url": "https://github.com/waxwingfactor/reachplan/releases/download/v1.0.0/BUILD-INFO.json",
+      "http_status": 200,
+      "sha256": "0195e66b94284af48108a1f3c316cdfffaf4cbf58ddd413ad9eec5479ff99845",
+      "bytes": 1137
+    }
+  },
+  "installations": [
+    {
+      "artifact": "reachplan-1.0.0-py3-none-any.whl",
+      "fresh_venv": true,
+      "isolated_import_from_venv": true,
+      "runtime_dependencies": [],
+      "example_exit": 3,
+      "example_unique": "160",
+      "example_draft": "125",
+      "example_review": "35",
+      "invalid_input_exit": 2,
+      "existing_output_exit": 2,
+      "relocated_offline_recomputation": true,
+      "tamper_exit": 2,
+      "later_dated_closeout_and_reviewed_attempt": true
+    },
+    {
+      "artifact": "reachplan-1.0.0.tar.gz",
+      "fresh_venv": true,
+      "isolated_import_from_venv": true,
+      "runtime_dependencies": [],
+      "example_exit": 3,
+      "example_unique": "160",
+      "example_draft": "125",
+      "example_review": "35",
+      "invalid_input_exit": 2,
+      "existing_output_exit": 2,
+      "relocated_offline_recomputation": true,
+      "tamper_exit": 2,
+      "later_dated_closeout_and_reviewed_attempt": true
+    }
+  ],
+  "hashes_match_published_checksums_and_api": true,
+  "wheel_record_verified": true,
+  "downloaded_sdist_tests": {
+    "count": 40,
+    "passed": true,
+    "runtime": "fresh installed public wheel",
+    "source_imports": false
+  },
+  "status": "passed",
+  "reviewed_source_hashes_match_in_wheel_and_sdist": {
+    "core.py": "aecc11755843ab1cc211b91fbe2a421deaaba084b47e42a94a4c7af6c810678f",
+    "bundle.py": "aa0fb12f976db9d2783afa765e077670b71565abb8bc08a7237326ae661bb2db",
+    "cli.py": "02363b7d50df636d6dcc072be9f55f3bd6bd4dca1f107b941e0c64d62f94fb0e"
+  },
+  "public_tag_resolves_to_source_commit": true,
+  "relocated_verification_with_socket_access_disabled": true
+}

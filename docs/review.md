@@ -15,3 +15,9 @@ A separate AI-agent implementation reviewer ran the tests and examined core/bund
 3. Historical attempted work needed an explicit resolution path. A responsible reviewer can now mark it `reviewed_attempt` with a required note, preserving the excluded evidence while adding no coverage. A closeout test confirms that unreviewed attempts keep review status, then explicit acknowledgement can clear it after accepted coverage is complete.
 
 The test suite at this stage contains 40 tests, including a separately authored set of 30 tests and 160 seeded randomized oracle cases. Local wheel and source-archive installations also pass in fresh environments outside the checkout. Final revision-specific review comments and CI evidence are attached to the implementation pull request; public downloaded-artifact validation remains a separate gate.
+
+## Exact implementation revision and final signoff
+
+The final separate AI-agent review found no remaining actionable issues in `8523f6f9f6aa1957df71c4f9477db9d573335c5a`. In addition to the 40-test suite, the reviewer compared 5,000 randomized subtraction cases to an independent cell-set oracle and checked a 20,000-pass fragmented job. See the [full attributed review comment](https://github.com/waxwingfactor/reachplan/pull/3#issuecomment-6200557557). After passing required CI, PR #3 merged to release-source commit `a48c9ec480866ffd51aabc36977b58fa7592e179`, with the identical source tree.
+
+The [public-release verification record](verification.md) separately covers actual final-asset download/install checks; no local build is substituted for that release gate.
